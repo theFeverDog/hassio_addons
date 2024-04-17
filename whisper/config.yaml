@@ -28,5 +28,7 @@ schema:
   debug_logging: bool
 ports:
   "10300/tcp": null
+map:
+  - share:ro
 homeassistant: 2023.8.0.dev20230728
 image: homeassistant/{arch}-addon-whisper
